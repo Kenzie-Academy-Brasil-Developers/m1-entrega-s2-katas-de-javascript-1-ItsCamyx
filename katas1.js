@@ -1,94 +1,165 @@
 function oneThroughTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result*/
-    
+  let meuArray = [];
+  for (let i = 1; i <= 20; i++) {
+    meuArray.push(i);
+  }
+  return meuArray;
 }
 
-//call function oneThroughTwenty
+oneThroughTwenty();
 
 function evensToTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result */
-  
+  let meuArray = [];
+  for (let i = 1; i <= 20; i++) {
+    if (i % 2 == 0) {
+      meuArray.push(i);
+    }
+  }
+  return meuArray;
 }
 
-//call function evensToTwenty
+evensToTwenty();
 
 function oddsToTwenty() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-   
+  let meuArray = [];
+  for (let i = 1; i <= 20; i++) {
+    if (i % 2 !== 0) {
+      meuArray.push(i);
+    }
+  }
+  return meuArray;
 }
 
-//call function oddsToTwenty
+oddsToTwenty();
 
 function multiplesOfFive() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-
+  let meuArray = [];
+  for (let i = 5; i <= 100; i++) {
+    if (i % 5 == 0) {
+      meuArray.push(i);
+    }
+  }
+  return meuArray;
 }
 
-//call function multiplesOfFive
+multiplesOfFive();
 
 function squareNumbers() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-    
+  let meuArray = [];
+  for (let i = 1; i <= 100; i++) {
+    const raiz = Math.sqrt(i);
+    if (raiz % 1 == 0) {
+      meuArray.push(i);
+    }
+  }
+  return meuArray;
 }
 
-//call function squareNumbers
+squareNumbers();
 
 function countingBackwards() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  let meuArray = [];
+  for (let i = 20; i >= 1; i--) {
+    meuArray.push(i);
+  }
+  return meuArray;
 }
-
-//call function countingBackwards
+// function countingBackwards() {
+//   let meuArray = [];
+//   for (let i = 1; i <= 20; i++) {
+//     meuArray.push(i);
+//   }
+//   meuArray.reverse();
+//   return meuArray;
+// }
+countingBackwards();
 
 function evenNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  let meuArray = [];
+  for (let i = 1; i <= 20; i++) {
+    if (i % 2 == 0) {
+      meuArray.push(i);
+    }
+  }
+  meuArray.reverse();
+  return meuArray;
 }
+// function evenNumbersBackwards() {
+//   let meuArray = [];
+//   for (let i = 20; i >= 1; i--) {
+//     if (i % 2 == 0) {
+//       meuArray.push(i);
+//     }
+//   }
+//   return meuArray;
+// }
 
-//call function evenNumbersBackwards
+evenNumbersBackwards();
 
 function oddNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  let meuArray = [];
+  for (let i = 20; i >= 1; i--) {
+    if (i % 2 !== 0) {
+      meuArray.push(i);
+    }
+  }
+  return meuArray;
 }
+// function oddNumbersBackwards() {
+//   let meuArray = [];
+//   for (let i = 1; i <= 20; i++) {
+//     if (i % 2 !== 0) {
+//       meuArray.push(i);
+//     }
+//   }
+//   meuArray.reverse();
+//   return meuArray;
+// }
 
-//call function oddNumbersBackwards
+oddNumbersBackwards();
 
 function multiplesOfFiveBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  let meuArray = [];
+  for (let i = 100; i >= 5; i--) {
+    if (i % 5 == 0) {
+      meuArray.push(i);
+    }
+  }
+  return meuArray;
 }
+// function multiplesOfFiveBackwards() {
+//   let meuArray = [];
+//   for (let i = 5; i <= 100; i++) {
+//     if (i % 5 == 0) {
+//       meuArray.push(i);
+//     }
+//   }
+//   meuArray.reverse();
+//   return meuArray;
+// }
 
-//call function multiplesOfFiveBackwards
+multiplesOfFiveBackwards();
 
 function squareNumbersBackwards() {
-    
-   /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  let meuArray = [];
+  for (let i = 100; i >= 1; i--) {
+    const raiz = Math.sqrt(i);
+    if (raiz % 1 == 0) {
+      meuArray.push(i);
+    }
+  }
+  return meuArray;
 }
+// function squareNumbersBackwards() {
+//   let meuArray = [];
+//   for (let i = 1; i <= 100; i++) {
+//     const raiz = Math.sqrt(i);
+//     if (raiz % 1 == 0) {
+//       meuArray.push(i);
+//     }
+//   }
+//   meuArray.reverse();
+//   return meuArray;
+// }
 
-//call function squareNumbersBackwards
+squareNumbersBackwards();
